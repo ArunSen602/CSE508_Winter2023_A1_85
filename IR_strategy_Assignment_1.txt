@@ -1,0 +1,12 @@
+1.Create a unigram inverted index from scratch of the dataset obtained from Q1.
+Ans.
+@1Create a data structure that records the occurence of a single word and its associated
+list of documents that it appears in. The data structure will contain a key for each distinct
+word in the dataset, and for each key, the value should be a list of documents in which the
+key appears. The list should be sorted in ascending order.
+
+2.Create a bigram inverted index from scratch of the dataset obtained from Q1.
+@1we will need to iterate through the dataset obtained from Q1. For each word in the dataset,
+we will create an array
+of bigrams from the word and store them in the inverted index. The inverted index will be a 
+hash map, with the bigram as the key and the words which contain the bigram as the value. 
